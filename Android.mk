@@ -32,6 +32,8 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
         android-support-v13 \
         calendar-common
 
+LOCAL_AAPT_INCLUDE_ALL_RESOURCES := true
+
 LOCAL_SDK_VERSION := current
 
 LOCAL_RESOURCE_DIR := $(addprefix $(LOCAL_PATH)/, $(res_dirs))
@@ -46,6 +48,8 @@ LOCAL_AAPT_FLAGS += --extra-packages com.android.ex.chips
 LOCAL_AAPT_FLAGS += --extra-packages com.android.colorpicker
 LOCAL_AAPT_FLAGS += --extra-packages com.android.datetimepicker
 LOCAL_AAPT_FLAGS += --extra-packages com.android.timezonepicker
+
+
 
 include $(BUILD_PACKAGE)
 
