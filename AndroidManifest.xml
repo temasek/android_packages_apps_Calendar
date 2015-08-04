@@ -134,14 +134,14 @@
 
         <activity android:name=".selectcalendars.SelectVisibleCalendarsActivity"
             android:label="@string/select_visible_calendars_title"
-            android:theme="@android:style/Theme.Material.Light.DarkActionBar"/>
+            android:theme="@style/CalendarTheme"/>
 
         <activity android:name=".selectcalendars.SelectSyncedCalendarsMultiAccountActivity"
             android:label="@string/select_synced_calendars_title"
-            android:theme="@android:style/Theme.Material.Light.DarkActionBar"/>
+            android:theme="@style/CalendarTheme"/>
 
         <activity android:name="CalendarSettingsActivity" android:label="@string/preferences_title"
-            android:theme="@android:style/Theme.Material.Light.DarkActionBar"/>
+            android:theme="@style/CalendarTheme"/>
 
         <!-- Declarations for search -->
         <!-- Make all activities a searchable context -->
